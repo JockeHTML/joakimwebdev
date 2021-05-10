@@ -1,0 +1,27 @@
+.button {
+  margin-top: 2rem;
+  position: relative;
+  background: var(--color);
+  color: var(--white);
+  text-transform: initial;
+  font-size: 18px;
+  letter-spacing: 0.4px;
+  border-radius: 10px;
+  box-shadow: none;
+  width: 250px;
+  padding: 19px 30px;
+  text-align: left;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button a {
+  font-size: 18px;
+}
+
+.button i {
+  font-size: 18px;
+  color: var(--white);
+}

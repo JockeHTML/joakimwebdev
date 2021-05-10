@@ -1,0 +1,19 @@
+.what {
+  padding: var(--padding8) 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content > div {
+  margin-right: 10px;
+}
