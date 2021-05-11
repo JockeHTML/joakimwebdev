@@ -1,0 +1,11 @@
+.text h3 {
+  color: var(--color);
+}
+
+.text h1 {
+  margin-bottom: 2rem;
+}
+
+.text {
+  margin-left: 5rem;
+}

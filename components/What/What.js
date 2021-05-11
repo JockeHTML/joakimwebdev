@@ -5,16 +5,40 @@ const What = () => {
   return (
     <div className={classes.what}>
       <div className={classes.content}>
-        <h1>What I work with</h1>
-      </div>
-      <div className={classes.content}>
-        <div>
-          {" "}
-          <img src="/html2.png" alt="picture of html logo" />
+        <div className={classes.title}>
+          <h3>TECHSTACK</h3>
+          <h1>What I work with</h1>
+          <p>
+            These are the skills i feel most confident with in my coding. I am
+            open for new experiences and learning new stacks, and everything
+            that comes with it.
+          </p>
         </div>
-        <div>
-          {" "}
-          <img src="/css2.png" alt="picture of css logo" />
+        <div className={classes.icons}>
+          <div>
+            {" "}
+            <img src="/html2.png" alt="picture of html logo" />
+          </div>
+          <div>
+            {" "}
+            <img src="/css2.png" alt="picture of css logo" />
+          </div>
+          <div>
+            {" "}
+            <img src="/javascript.png" alt="picture of javascript logo" />
+          </div>
+          <div>
+            {" "}
+            <img src="/react.png" alt="picture of react logo" />
+          </div>
+
+          <div>
+            {" "}
+            <img src="/git.png" alt="picture of git logo" />
+          </div>
+          <div className={classes.npm}>
+            <i className="fab fa-npm"></i>
+          </div>
         </div>
       </div>
     </div>

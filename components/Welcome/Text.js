@@ -6,11 +6,13 @@ const Text = () => {
   return (
     <div className={classes.text}>
       <h1>Hello!</h1>
-      <h1>I am Joakim.</h1>
+      <h1>
+        I am <span>Joakim.</span>
+      </h1>
+
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
-        nesciunt reiciendis quos pariatur nobis dicta maxime ullam libero
-        corporis? Ducimus!
+        Self taught front-end focused web developer. Living and working on my
+        programmer skills in Sundsvall, Sweden. Welcome to my portfolio!
       </p>
       <Button>See my projects</Button>
     </div>

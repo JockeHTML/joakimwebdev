@@ -2,6 +2,7 @@ import Head from "next/head";
 import classes from "../styles/Home.module.css";
 import Welcome from "../components/Welcome/Welcome";
 import What from "../components/What/What";
+import About from "../components/About/About";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main className={classes.main}>
         <Welcome />
+        <About />
         <What />
       </main>
     </div>
