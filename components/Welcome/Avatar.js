@@ -4,7 +4,7 @@ import classes from "./Avatar.module.css";
 const Avatar = () => {
   return (
     <div className={classes.image}>
-      <img src="./tables.png" alt="" />
+      <img src="./tables.png" alt="picture of working table" />{" "}
     </div>
   );
 };

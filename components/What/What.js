@@ -17,7 +17,7 @@ const What = () => {
         <div className={classes.icons}>
           <div>
             {" "}
-            <img src="/html2.png" alt="picture of html logo" />
+            <img src="/html2.png" alt="picture of css logo" />
           </div>
           <div>
             {" "}
@@ -31,13 +31,9 @@ const What = () => {
             {" "}
             <img src="/react.png" alt="picture of react logo" />
           </div>
-
           <div>
             {" "}
             <img src="/git.png" alt="picture of git logo" />
-          </div>
-          <div className={classes.npm}>
-            <i className="fab fa-npm"></i>
           </div>
         </div>
       </div>

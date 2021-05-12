@@ -2,9 +2,11 @@
   display: flex;
   width: 50%;
   align-items: center;
+  margin: auto;
 }
 
 .about {
+  flex-direction: column;
   padding: var(--padding8) 1.5rem;
   display: flex;
   justify-content: center;

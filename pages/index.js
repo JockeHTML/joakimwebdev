@@ -3,6 +3,7 @@ import classes from "../styles/Home.module.css";
 import Welcome from "../components/Welcome/Welcome";
 import What from "../components/What/What";
 import About from "../components/About/About";
+import Projects from "../components/Projects/Projects";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Welcome />
         <About />
         <What />
+        <Projects />
       </main>
     </div>
   );
