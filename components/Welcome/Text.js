@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Text.module.css";
 import Button from "./Button";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Text = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className={classes.text}>
+    <div data-aos="fade-right" className={classes.text}>
       <h1>Hello!</h1>
       <h1>
         I am <span>Joakim.</span>

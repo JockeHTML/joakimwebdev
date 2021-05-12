@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./What.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const What = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className={classes.what}>
       <div className={classes.content}>
@@ -14,7 +19,7 @@ const What = () => {
             that comes with it.
           </p>
         </div>
-        <div className={classes.icons}>
+        <div data-aos="fade-up" className={classes.icons}>
           <div>
             {" "}
             <img src="/html2.png" alt="picture of css logo" />
