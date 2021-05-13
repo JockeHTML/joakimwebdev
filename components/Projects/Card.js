@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import classes from "./Card.module.css";
-import Button from "../Welcome/Button";
+import BorderButton from "../ui/BorderButton";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -13,7 +13,7 @@ const Card = ({ title, text, src }) => {
       <div className={classes.text}>
         <h2>{title}</h2>
         <p>{text}</p>
-        <Button>Live demo</Button>
+        <BorderButton>Live demo</BorderButton>
       </div>
       <div className={classes.image}>
         <img src={src} alt="picture of bars and a checkmark" />

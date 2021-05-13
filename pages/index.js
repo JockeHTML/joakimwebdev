@@ -4,6 +4,7 @@ import Welcome from "../components/Welcome/Welcome";
 import What from "../components/What/What";
 import About from "../components/About/About";
 import Projects from "../components/Projects/Projects";
+import ContactForm from "../components/Contact/ContactForm";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <About />
         <What />
         <Projects />
+        <ContactForm />
       </main>
     </div>
   );

@@ -1,8 +1,8 @@
 .button {
   margin-top: 3rem;
   position: relative;
-  background: var(--color);
-  color: var(--white);
+  background: var(--white);
+  border: 1px solid var(--color);
   text-transform: initial;
   font-size: 18px;
   letter-spacing: 0.4px;
@@ -15,6 +15,7 @@
   transition: all 0.3s ease-in-out;
   display: flex;
   justify-content: space-between;
+  color: var(--color);
 }
 
 .button a {
@@ -23,5 +24,5 @@
 
 .button i {
   font-size: 18px;
-  color: var(--white);
+  color: var(--color);
 }

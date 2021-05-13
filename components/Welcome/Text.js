@@ -19,7 +19,7 @@ const Text = () => {
         Self taught front-end focused web developer. Living and working on my
         programmer skills in Sundsvall, Sweden. Welcome to my portfolio!
       </p>
-      <Button>See my projects</Button>
+      <Button>See projects</Button>
     </div>
   );
 };

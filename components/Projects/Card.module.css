@@ -29,7 +29,7 @@
   border-radius: 0 15px 15px 0;
   padding: 0 50px;
   min-width: 50%;
-  background-color: var(--lightgrey);
+  background-color: var(--color);
   display: flex;
   justify-content: center;
   align-items: center;

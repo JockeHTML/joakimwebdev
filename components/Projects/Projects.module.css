@@ -10,8 +10,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .projects h3 {
   color: var(--color);
+}
+
+.projects div:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.projects div:nth-child(6) {
+  margin-bottom: 0;
 }

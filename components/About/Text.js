@@ -15,10 +15,10 @@ const Text = () => {
         <h3>A BIT</h3>
         <h1>About Me</h1>
         <p>
-          Im a self taught web developer, focusing on front-end side. In 2020 i
-          decided to leave my current job and pursue a career in coding. I have
-          always had an interest for technology and computers so it felt natural
-          to try get into the IT business.
+          I am a self taught web developer, focusing on front-end side. In 2020
+          i decided to leave my current job and pursue a career in coding. I
+          have always had an interest for technology and computers so it felt
+          natural to try get into the IT business.
         </p>
         <br />
         <p>
