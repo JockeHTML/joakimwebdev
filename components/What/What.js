@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import classes from "./What.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 
 const What = () => {
   useEffect(() => {

@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Welcome.module.css";
 import Avatar from "./Avatar";
 import Text from "./Text";
+import SocialMedia from "./SocialMedia";
 
 const Welcome = () => {
   return (
@@ -10,19 +11,7 @@ const Welcome = () => {
         <Text />
         <Avatar />
       </div>
-      <ul>
-        <span></span>
-        <li>
-          <a href="https://www.linkedin.com">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.github.com">
-            <i class="fab fa-github-square"></i>{" "}
-          </a>
-        </li>
-      </ul>
+      <SocialMedia />
     </div>
   );
 };

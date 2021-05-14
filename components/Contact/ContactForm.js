@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import emailjs from "emailjs-com";
 import styles from "./ContactForm.module.css";
 import cx from "classnames";
-import Button from "../Welcome/Button";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 /* Email code setup via EmailJS for a simple and quick email service */
 
@@ -28,16 +29,31 @@ const sendEmail = (e) => {
 };
 
 function ContactForm(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className={styles.formWrapper}>
       <div className={styles.content}>
-        <div className={styles.text}>
+        <div data-aos="slide-right" className={styles.text}>
           <h3>HEY YOU</h3>
           <h1>Lets talk about it!</h1>
           <p>
             You want to get in touch with me? Send me a massage here or get in
             touch with me through Linkedin, hope to hear from you.
           </p>
+          <br />
+          <ul className={styles.contact}>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+
+              <p>073 024 53 76</p>
+            </li>
+            <li>
+              <i class="fas fa-chevron-right"></i>
+              <p>Joakimwebdev@outlook.com</p>
+            </li>
+          </ul>
         </div>
         <form autoComplete="off" onSubmit={sendEmail} className={styles.form}>
           <div className={cx(styles.input, styles.name)}>

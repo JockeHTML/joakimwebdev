@@ -1,0 +1,23 @@
+.socialMedia span {
+  content: "";
+  width: 4000px;
+  height: 1px;
+  background: #e3e2ef;
+  margin-right: 40px;
+}
+
+.socialMedia ul {
+  position: absolute;
+  bottom: 100px;
+  right: 160px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+
+.socialMedia i {
+  font-size: 2rem;
+  color: var(--lightblue);
+  margin-right: 10px;
+}

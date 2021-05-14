@@ -13,27 +13,3 @@
   display: flex;
   width: 60%;
 }
-
-.welcome span {
-  content: "";
-  width: 4000px;
-  height: 1px;
-  background: #e3e2ef;
-  margin-right: 40px;
-}
-
-.welcome ul {
-  position: absolute;
-  bottom: 100px;
-  right: 160px;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  align-items: center;
-}
-
-.welcome i {
-  font-size: 2rem;
-  color: var(--primary);
-  margin-right: 10px;
-}
