@@ -42,18 +42,6 @@ function ContactForm(props) {
             You want to get in touch with me? Send me a massage here or get in
             touch with me through Linkedin, hope to hear from you.
           </p>
-          <br />
-          <ul className={styles.contact}>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-
-              <p>073 024 53 76</p>
-            </li>
-            <li>
-              <i class="fas fa-chevron-right"></i>
-              <p>Joakimwebdev@outlook.com</p>
-            </li>
-          </ul>
         </div>
         <form autoComplete="off" onSubmit={sendEmail} className={styles.form}>
           <div className={cx(styles.input, styles.name)}>
@@ -82,7 +70,7 @@ function ContactForm(props) {
           </div>
           <button type="submit" className={styles.formButton}>
             Send message
-            <i class="fas fa-chevron-right"></i>
+            <i className="fas fa-chevron-right"></i>
           </button>
         </form>
       </div>

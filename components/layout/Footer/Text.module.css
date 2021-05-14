@@ -1,0 +1,13 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text h2 {
+  margin-bottom: 2rem;
+}
+
+.text p {
+  width: 50%;
+}

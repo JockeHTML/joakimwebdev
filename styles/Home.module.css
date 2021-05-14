@@ -1,1 +1,4 @@
-
+.title {
+  padding-top: var(--padding8);
+  text-align: center;
+}

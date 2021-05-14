@@ -4,7 +4,7 @@ import BorderButton from "../ui/BorderButton";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-const Card = ({ title, text, src }) => {
+const Card = ({ title, text, src, link }) => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -13,7 +13,7 @@ const Card = ({ title, text, src }) => {
       <div className={classes.text}>
         <h2>{title}</h2>
         <p>{text}</p>
-        <BorderButton>Live demo</BorderButton>
+        <BorderButton src={link}>Live demo</BorderButton>
       </div>
       <div className={classes.image}>
         <img src={src} alt="picture of bars and a checkmark" />

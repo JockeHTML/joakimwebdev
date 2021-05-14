@@ -8,12 +8,12 @@ const SocialMedia = () => {
         <span></span>
         <li>
           <a href="https://www.linkedin.com">
-            <i class="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
         </li>
         <li>
           <a href="https://www.github.com">
-            <i class="fab fa-github-square"></i>{" "}
+            <i className="fab fa-github-square"></i>{" "}
           </a>
         </li>
       </ul>

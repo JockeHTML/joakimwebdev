@@ -8,6 +8,16 @@
   border-radius: 100px 0 0 100px;
 }
 
+.projectsWhite {
+  padding: var(--padding8) 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--white);
+  border-radius: 100px 0 0 100px;
+}
+
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -16,14 +26,17 @@
   padding-bottom: 0;
 }
 
-.projects h3 {
+.projects h3,
+.projectsWhite h3 {
   color: var(--color);
 }
 
-.projects div:nth-child(5) {
+.projects div:nth-child(5),
+.projectsWhite div:nth-child(5) {
   margin-bottom: 0;
 }
 
-.projects div:nth-child(6) {
+.projects div:nth-child(6),
+.projectsWhite div:nth-child(6) {
   margin-bottom: 0;
 }
