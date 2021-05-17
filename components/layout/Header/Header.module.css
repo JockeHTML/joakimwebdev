@@ -1,7 +1,7 @@
 .header {
   background-color: var(--lightgrey);
   display: flex;
-  height: 100px;
+  height: 120px;
   width: 100%;
   align-items: center;
 }
@@ -10,7 +10,7 @@
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-  width: 62%;
+  width: 90%;
   display: flex;
 }
 
@@ -47,11 +47,15 @@
     display: none;
   }
   .content {
+    width: 70%;
     margin: 0;
   }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .content {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -61,4 +65,10 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .content ul {
+    display: none;
+  }
+  .content {
+    width: 100%;
+  }
 }
