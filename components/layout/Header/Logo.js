@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Logo.module.css";
-import Image from "next/image";
 import Link from "next/link";
 
 const Logo = () => {
@@ -8,12 +7,7 @@ const Logo = () => {
     <div className={classes.logo}>
       <Link href="/">
         <a>
-          <Image
-            src="/logo2.png"
-            alt="Joakimwebdev logo"
-            width="200"
-            height="200"
-          />
+          <img src="/logo2.png" alt="Joakimwebdev logo" />
         </a>
       </Link>
     </div>
