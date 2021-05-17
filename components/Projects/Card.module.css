@@ -40,3 +40,25 @@
 .image img {
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .card {
+    width: auto;
+    flex-direction: column-reverse;
+    margin: 0 0 4rem 0;
+    height: auto;
+  }
+  .image {
+    min-height: 50%;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    padding: 40px 1rem;
+  }
+  .text {
+    min-height: 50%;
+    text-align: center;
+    height: auto;
+    border-radius: 0 0 15px 15px;
+    padding: 40px 1rem;
+  }
+}

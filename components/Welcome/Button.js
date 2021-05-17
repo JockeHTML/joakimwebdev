@@ -3,10 +3,10 @@ import classes from "./Button.module.css";
 
 const Button = (props) => {
   return (
-    <a href="#" className={classes.button}>
+    <div className={classes.button}>
       {props.children}
       <i className="fas fa-chevron-right"></i>
-    </a>
+    </div>
   );
 };
 

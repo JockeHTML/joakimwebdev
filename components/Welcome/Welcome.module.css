@@ -13,3 +13,14 @@
   display: flex;
   width: 60%;
 }
+
+@media (max-width: 768px) {
+  .content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .welcome {
+    padding: var(--padding4) 1rem var(--padding8) 1rem;
+    height: auto;
+  }
+}

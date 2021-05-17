@@ -35,7 +35,7 @@ function ContactForm(props) {
   return (
     <div className={styles.formWrapper}>
       <div className={styles.content}>
-        <div data-aos="slide-right" className={styles.text}>
+        <div data-aos="fade-up" className={styles.text}>
           <h3>HEY YOU</h3>
           <h1>Lets talk about it!</h1>
           <p>

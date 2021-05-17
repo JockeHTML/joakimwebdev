@@ -3,7 +3,7 @@ import classes from "./Button.module.css";
 
 const BorderButton = (props) => {
   return (
-    <a href={props.src} className={classes.button}>
+    <a href={props.src} target="_blank" className={classes.button}>
       {props.children}
       <i className="fas fa-chevron-right"></i>
     </a>

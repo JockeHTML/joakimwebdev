@@ -9,3 +9,9 @@
 .text {
   margin-left: 5rem;
 }
+
+@media (max-width: 768px) {
+  .text {
+    margin: 0;
+  }
+}

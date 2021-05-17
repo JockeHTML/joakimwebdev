@@ -22,4 +22,15 @@
   background: none;
   font-weight: 600;
   letter-spacing: 1px;
+  transition: 100ms ease-out;
+}
+
+.links a:hover {
+  color: var(--color);
+}
+
+@media (max-width: 768px) {
+  .links {
+    margin-top: var(--padding4);
+  }
 }

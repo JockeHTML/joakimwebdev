@@ -1,7 +1,7 @@
 .what {
   display: flex;
   justify-content: center;
-  padding: var(--padding8) 1.5rem;
+  padding: var(--padding8) 0;
   position: flex;
   flex-direction: column;
 }
@@ -17,6 +17,7 @@
 
 .title {
   text-align: center;
+  padding: 0 1rem;
 }
 
 .title h1 {
@@ -33,7 +34,7 @@
 }
 
 .icons {
-  padding-top: var(--padding8);
+  padding-top: var(--padding4);
   width: 100%;
   flex-wrap: wrap;
   margin: auto;
@@ -65,4 +66,30 @@
 
 .icons div:nth-child(4) {
   padding-bottom: 0;
+}
+
+.icons div:nth-child(6) {
+  padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .what {
+    padding: 0 0 var(--padding8) 0;
+  }
+  .title p {
+    width: 100%;
+  }
+  .icons > div {
+    padding: 0 1rem 2rem 1rem;
+  }
+  .icons {
+    padding: var(--padding4) 0 0 0;
+  }
+  .icons div:nth-child(4) {
+    padding-bottom: 2rem;
+  }
 }

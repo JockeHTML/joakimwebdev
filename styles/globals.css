@@ -27,6 +27,7 @@ a {
 :root {
   --padding2: 2rem;
   --padding4: 4rem;
+  --padding6: 6rem;
   --padding8: 8rem;
   --size1: 0.25rem;
   --size2: 0.5rem;
@@ -43,7 +44,6 @@ a {
   --size20: 5rem;
   --size30: 7rem;
   --size40: 10rem;
-
   --grey: #343a40;
   --black: #000814;
   --color: #28f3bb;
@@ -76,7 +76,7 @@ h1 {
 h2 {
   margin: 0 0 1rem 0;
   padding: 0;
-  color: var(--blue);
+  color: var(--black);
   font-size: var(--size8);
   line-height: 2rem;
 }
@@ -84,7 +84,7 @@ h2 {
 h3 {
   margin: 0 0 10px 0;
   padding: 0;
-  color: var(--blue);
+  color: var(--black);
   font-size: var(--size6);
   line-height: 1.75rem;
 }
@@ -92,19 +92,20 @@ h3 {
 h4 {
   margin: 0 0 10px 0;
   padding: 0;
-  color: var(--blue);
-  font-size: var(--size4);
+  color: var(--black);
+  font-size: var(--size5);
   line-height: 1.75rem;
 }
 
 @media (max-width: 768px) {
   h1 {
-    font-size: var(--size10);
-    line-height: 1.1;
+    font-size: 32px;
   }
   h2 {
-    font-size: var(--size7);
-    line-height: 1.1;
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
   }
 }
 

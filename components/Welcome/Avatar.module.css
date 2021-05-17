@@ -8,3 +8,11 @@
 .image img {
   max-width: 100%;
 }
+
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+    margin: 0;
+    display: none;
+  }
+}

@@ -21,3 +21,9 @@
   color: var(--lightblue);
   margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+  .socialMedia {
+    display: none;
+  }
+}

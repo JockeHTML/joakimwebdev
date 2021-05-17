@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: var(--padding8) 1.5rem;
+  padding: var(--padding8) 1rem;
   border-radius: 100px 0 0 0;
 }
 
@@ -108,23 +108,23 @@
 }
 
 @media (max-width: 768px) {
-  .name,
-  .email,
-  .subject,
-  .message {
-    width: 80%;
-  }
-  .formWrapper {
-    margin: auto;
+  .content {
+    flex-direction: column;
     width: 100%;
   }
   .input input {
-    padding: 1rem;
-    width: 90%;
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 var(--padding6) 0;
   }
   .message textarea {
-    height: 120px;
-    padding: 1rem;
-    width: 90%;
+    width: 100%;
+  }
+  .formButton {
+    margin-left: auto;
+    margin-right: auto;
   }
 }

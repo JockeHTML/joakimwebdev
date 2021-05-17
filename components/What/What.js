@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import classes from "./What.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Image from "next/image";
-
+import { whatData } from "../../data";
 const What = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -21,26 +20,16 @@ const What = () => {
           </p>
         </div>
         <div data-aos="fade-up" className={classes.icons}>
-          <div>
-            {" "}
-            <img src="/html2.png" alt="picture of css logo" />
-          </div>
-          <div>
-            {" "}
-            <img src="/css2.png" alt="picture of css logo" />
-          </div>
-          <div>
-            {" "}
-            <img src="/javascript.png" alt="picture of javascript logo" />
-          </div>
-          <div>
-            {" "}
-            <img src="/react.png" alt="picture of react logo" />
-          </div>
-          <div>
-            {" "}
-            <img src="/git.png" alt="picture of git logo" />
-          </div>
+          {whatData.map((data, index) => {
+            const { title, src, alt } = data;
+            return (
+              <div key={index}>
+                {" "}
+                <img src={src} alt={alt} />
+                <h4>{title}</h4>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

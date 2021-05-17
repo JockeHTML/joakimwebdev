@@ -7,7 +7,19 @@
 
 .about {
   flex-direction: column;
-  padding: var(--padding8) 1.5rem;
+  padding: var(--padding8) 1rem;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    text-align: center;
+  }
 }
