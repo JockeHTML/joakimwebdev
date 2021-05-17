@@ -70,7 +70,7 @@ export const whatData = [
   {
     title: "Javascript",
     alt: "picture of Javascript logo",
-    src: "/Javascript.png",
+    src: "/javascript.png",
   },
   {
     title: "React",
