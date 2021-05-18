@@ -18,7 +18,7 @@ const Text = () => {
         <p>
           In 2020 I decided to leave my current job and pursue a career in
           coding. I have always had an interest for technology and computers so
-          it felt natural to try take the step into programming world.
+          it felt natural to try take the step into the programming world.
         </p>
         <br />
         <p>

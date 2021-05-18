@@ -39,8 +39,8 @@ function ContactForm(props) {
           <h3>HEY YOU</h3>
           <h1>Lets talk about it!</h1>
           <p>
-            You want to get in touch with me? Send me a massage here or get in
-            touch with me through Linkedin, hope to hear from you.
+            Send me a massage here or get in touch with me through Linkedin,
+            hope to hear from you soon.
           </p>
         </div>
         <form autoComplete="off" onSubmit={sendEmail} className={styles.form}>

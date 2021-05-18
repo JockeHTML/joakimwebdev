@@ -59,6 +59,7 @@
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
   .content {
     width: 50%;
+    justify-content: flex-start;
   }
 }
 
@@ -68,6 +69,14 @@
   }
   .content {
     width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .content {
+    width: 100%;
+    justify-content: space-around;
   }
 }
 
@@ -77,8 +86,6 @@
   }
   .content {
     width: 100%;
+    justify-content: flex-start;
   }
-}
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
 }
