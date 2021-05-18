@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import Link from "next/link";
 import { linksData } from "../../../data";
 import Menu from "./Menu";
+import SocialMedia from "../../Welcome/SocialMedia";
 
 const Header = () => {
   return (
@@ -22,6 +23,7 @@ const Header = () => {
             );
           })}
         </ul>
+        <SocialMedia />
       </div>
       <Menu />
     </div>

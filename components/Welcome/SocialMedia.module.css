@@ -1,72 +1,14 @@
-.socialMedia span {
-  content: "";
-  width: 4000px;
-  height: 1px;
-  background: #e3e2ef;
-  margin-right: 40px;
-}
-
-.socialMedia ul {
-  position: absolute;
-  bottom: 100px;
-  right: 160px;
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  align-items: center;
-  padding: 1rem 0;
-}
-
 .socialMedia i {
   font-size: 2rem;
   color: var(--lightblue);
-  margin-right: 10px;
 }
 
-@media (max-width: 768px) {
-  .socialMedia ul {
-    display: none;
-  }
+.socialMedia li {
+  margin: 0;
+  padding: 0;
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .socialMedia ul {
-    bottom: 425px;
-    right: 160px;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .socialMedia ul {
-    bottom: 600px;
-    right: 160px;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .socialMedia ul {
-    bottom: 100px;
-    right: 160px;
-  }
-}
-
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .socialMedia ul {
-    bottom: 50px;
-    right: 160px;
-  }
-}
-
-/* For 1024 Resolution */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .socialMedia ul {
-    display: none;
-  }
-}
-
-/* For 1366 Resolution */
-@media only screen and (min-width: 1030px) and (max-width: 1366px) {
-  .socialMedia ul {
-    display: none;
-  }
+.socialMedia a {
+  padding: 0;
+  margin: 0 10px 0 0;
 }

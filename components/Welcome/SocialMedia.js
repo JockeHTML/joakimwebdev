@@ -5,7 +5,6 @@ const SocialMedia = () => {
   return (
     <div className={classes.socialMedia}>
       <ul>
-        <span></span>
         <li>
           <a href="https://www.linkedin.com">
             <i className="fab fa-linkedin"></i>

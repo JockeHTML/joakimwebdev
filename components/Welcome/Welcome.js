@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./Welcome.module.css";
 import Avatar from "./Avatar";
 import Text from "./Text";
-import SocialMedia from "./SocialMedia";
 
 const Welcome = () => {
   return (
@@ -11,7 +10,6 @@ const Welcome = () => {
         <Text />
         <Avatar />
       </div>
-      <SocialMedia />
     </div>
   );
 };

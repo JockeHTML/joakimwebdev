@@ -16,17 +16,16 @@ const Text = () => {
         <h3>A BIT</h3>
         <h1>About me</h1>
         <p>
-          I am a self taught web developer, focusing on front-end side. In 2020
-          i decided to leave my current job and pursue a career in coding. I
-          have always had an interest for technology and computers so it felt
-          natural to try get into the IT business.
+          In 2020 I decided to leave my current job and pursue a career in
+          coding. I have always had an interest for technology and computers so
+          it felt natural to try take the step into programming world.
         </p>
         <br />
         <p>
-          At this point Im trying to get into freelanceing and doing as much
-          work as i can, mainly to small businesses. Im trying to learn as much
-          as I can while working, and picking up new things and add them to my
-          stack along the way.
+          At this point Im starting to get into freelancing and doing as much
+          work as i can, mainly to small businesses. I am learning as much as I
+          can while working, and picking up new things and add them to my stack
+          along the way.
         </p>
         <Link passHref href="/contact">
           <a>
