@@ -56,3 +56,17 @@
     right: 160px;
   }
 }
+
+/* For 1024 Resolution */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .socialMedia ul {
+    display: none;
+  }
+}
+
+/* For 1366 Resolution */
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .socialMedia ul {
+    display: none;
+  }
+}
