@@ -17,8 +17,8 @@ const Text = () => {
       </h1>
 
       <p>
-        Self taught front-end focused web developer. Living and working on my
-        programmer skills in Sundsvall, Sweden. Welcome to my portfolio!
+        Self taught front-end web developer. Living and working on my programmer
+        skills in Sundsvall, Sweden. Welcome to my portfolio!
       </p>
       <Link passHref href="/projects">
         <a>

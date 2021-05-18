@@ -130,6 +130,14 @@
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .formWrapper {
+    padding: var(--padding8) 2rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -153,9 +161,12 @@
     margin-right: 4rem;
     width: 100%;
   }
+  .formWrapper {
+    padding: var(--padding8) 2rem;
+  }
   .content {
     width: 80%;
-    padding: 0 2rem;
+    padding: 0;
   }
 }
 

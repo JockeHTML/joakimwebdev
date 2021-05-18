@@ -1,37 +1,37 @@
 export const projectsData = [
   {
     title: "Rockfield Redovisning",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laboriosam!",
+    text: "HTML, CSS, Javascript, NextJS, Material-UI",
     src: "./rockfield.png",
     link: "https://awesome-meitner-c486c7.netlify.app/",
   },
   {
     title: "Mest Kunskap",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laboriosam!",
+    text: "HTML, CSS, Javascript, React",
     src: "./mestkunskap.png",
     link: "https://mestkunskap.netlify.app/",
   },
   {
     title: "Weather App",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laboriosam!",
+    text: "HTML, CSS, Javascript, React",
     src: "./weather.png",
     link: "https://joakim-weather-project.herokuapp.com/",
   },
   {
     title: "Shopping App",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laboriosam!",
+    text: "HTML, CSS, Javascript, React, Material-UI",
     src: "./shopping.png",
     link: "https://joakim-shopping-project.herokuapp.com/",
   },
   {
     title: "Covid App",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laboriosam!",
+    text: "HTML, CSS, Javascript, React, ChartJS, Axios",
     src: "covid.png",
     link: "https://joakim-covid-project.herokuapp.com/",
   },
   {
     title: "Movie App",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, laboriosam!",
+    text: "HTML, CSS, Javascript, React",
     src: "./movie.png",
     link: "https://joakim-movie-project.herokuapp.com/",
   },

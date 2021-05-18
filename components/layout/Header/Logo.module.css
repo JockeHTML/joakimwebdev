@@ -1,5 +1,6 @@
 .logo {
-  width: 300px;
+  width: 350px;
+  display: flex;
 }
 
 .logo img {
@@ -10,5 +11,6 @@
 @media (max-width: 768px) {
   .logo {
     width: 100%;
+    margin-bottom: 1rem;
   }
 }
