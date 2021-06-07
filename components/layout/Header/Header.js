@@ -23,8 +23,11 @@ const Header = () => {
             );
           })}
         </ul>
-        <SocialMedia />
+        <div className={classes.social}>
+          <SocialMedia />
+        </div>
       </div>
+
       <Menu />
     </div>
   );

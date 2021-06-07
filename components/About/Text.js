@@ -24,8 +24,8 @@ const Text = () => {
         <p>
           At this point Im starting to get into freelancing and doing as much
           work as i can, mainly to small businesses. I am learning as much as I
-          can while working, and picking up new things and add them to my stack
-          along the way.
+          can while working, and picking up new things and adding them to my
+          stack along the way.
         </p>
         <Link passHref href="/contact">
           <a>

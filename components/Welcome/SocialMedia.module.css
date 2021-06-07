@@ -1,6 +1,7 @@
 .socialMedia i {
   font-size: 2rem;
   color: var(--lightblue);
+  transition: 100ms ease-out;
 }
 
 .socialMedia li {
@@ -11,4 +12,8 @@
 .socialMedia a {
   padding: 0;
   margin: 0 5px;
+}
+
+.socialMedia i:hover {
+  color: var(--color);
 }

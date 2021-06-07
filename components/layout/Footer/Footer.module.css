@@ -33,9 +33,14 @@
 }
 
 .socialMedia i {
+  transition: 100ms ease-out;
   font-size: 2rem;
   color: var(--lightblue);
   margin-right: 10px;
+}
+
+.socialMedia i:hover {
+  color: var(--color);
 }
 
 @media (max-width: 768px) {
