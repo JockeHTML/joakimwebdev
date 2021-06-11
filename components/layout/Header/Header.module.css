@@ -38,6 +38,10 @@
   transition: 100ms ease-out;
 }
 
+.social a {
+  padding: 0 5px;
+}
+
 .content a:hover {
   color: var(--color);
 }
