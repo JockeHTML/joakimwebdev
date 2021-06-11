@@ -6,10 +6,10 @@ export const projectsData = [
     link: "https://awesome-meitner-c486c7.netlify.app/",
   },
   {
-    title: "Mest Kunskap",
-    text: "HTML, CSS, Javascript, React",
-    src: "./mestkunskap.png",
-    link: "https://mestkunskap.netlify.app/",
+    title: "SE Däck",
+    text: "HTML, CSS, Javascript, React, NextJS",
+    src: "./bars.png",
+    link: "https://se-dack.netlify.app/",
   },
   {
     title: "Weather App",
