@@ -3,7 +3,7 @@ export const projectsData = [
     title: "Rockfield Redovisning",
     text: "HTML, CSS, Javascript, NextJS, Material-UI",
     src: "./rockfield.png",
-    link: "https://awesome-meitner-c486c7.netlify.app/",
+    link: "https://www.rockfieldredovisning.se",
   },
   {
     title: "SE Däck",
