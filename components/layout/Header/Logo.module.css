@@ -1,6 +1,10 @@
 .logo {
-  width: 350px;
   display: flex;
+}
+
+.logo a {
+  padding: 0;
+  margin: 0;
 }
 
 .logo img {

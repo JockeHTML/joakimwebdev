@@ -1,19 +1,24 @@
 .firstIcon i {
   display: none;
-  color: var(--color);
-  right: 35px;
-  top: 35px;
+  color: var(--white);
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  right: 20px;
+  top: 20px;
   position: fixed;
   font-size: var(--size8);
   cursor: pointer;
   z-index: 3;
+  background-color: var(--color);
+  border-radius: 5px;
 }
 
 .secondIcon i {
   display: none;
-  color: var(--lightblue);
-  right: 35px;
-  top: 35px;
+  color: black;
+  right: 20px;
+  top: 20px;
   position: fixed;
   font-size: var(--size8);
   cursor: pointer;
