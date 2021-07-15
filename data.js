@@ -18,10 +18,10 @@ export const projectsData = [
     link: "https://joakim-weather-project.herokuapp.com/",
   },
   {
-    title: "Shopping App",
-    text: "HTML, CSS, Javascript, React, Material-UI",
+    title: "Salong Beautiful",
+    text: "HTML, CSS, Javascript, React, NextJS",
     src: "./shopping.png",
-    link: "https://joakim-shopping-project.herokuapp.com/",
+    link: "https://salong-beautiful.netlify.app/",
   },
   {
     title: "Covid App",
